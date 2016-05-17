@@ -58,21 +58,15 @@ It is important to monitor and project these constraints under different scenari
 We built a descision support system which calculate these ratios based on different methods and projects these ratios in different 
 scenarios. This report is very critical to bank's rating and income.</p>
 <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Estimating Targeting efforts, Share and Size of Wallet under Incomplete Information.</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Estimating Targeting efforts, Share and Size of Wallet under Incomplete Information</h3>
 
-<p>Objective
+<p>
 This project deals with 1) estimating share and size of wallet of customers under incomplete information 2) Estimating targeting efforts using share and size of wallet jointly.
-
-Data
 37 months of transactional level data of 9,000 customer for one of the largest US credit card companies. For each account we were provided with
 the account number, type of account, date and amount associated with each transaction. We also have the credit limit for each account, customer's 
 occupation, reward card type. 140 transaction were made on each account over the 37 month period.  
-
-Methodology
 We use two methods 1) We assume the total number of transactions made by a customer modeled as a poisson process. Number of transations made 
 at the focal firm is modeled as binomial distribution. Next we write the likelihood and estimate the parameters. 2) In the second method we model the interpurchase time as an erlang distribution and model the credit card usage as markov transition probabilities. Next we jointly write the likelihood and estimate the parameters for share and size of wallet. We find the second method to be more robust. Next we use the share and size of wallet to estimate the targeting efforts for each customer.
-
-Results
 We were successfully able to match our estimates with the survey data and eventually obtain the targeting efforts for each customer. This study is first of its kind which
 helps to estimate the targeting efforts based on jointly using share and size of wallet. Specifically we find that out of 6282 active customers 1186 have high size of wallet but low share of wallet, hence the firm should use the highest targeting efforts for these customers</p>
 <h3>
